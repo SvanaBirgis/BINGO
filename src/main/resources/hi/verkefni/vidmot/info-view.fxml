@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+
+<Pane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/17" xmlns:fx="http://javafx.com/fxml/1" fx:controller="hi.verkefni.vidmot.SceneController">
+    <children>
+        <Text layoutX="26.0" layoutY="63.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Hvernig á að spila:" underline="true">
+            <font>
+                <Font size="36.0" />
+            </font>
+        </Text>
+        <Text layoutX="26.0" layoutY="109.0" strokeType="OUTSIDE" strokeWidth="0.0" text="1. Ýta á hefja leik." />
+        <Text layoutX="26.0" layoutY="140.0" strokeType="OUTSIDE" strokeWidth="0.0" text="2. Velja fjölda spjalda." />
+        <Text layoutX="26.0" layoutY="165.0" strokeType="OUTSIDE" strokeWidth="0.0" text="3. Þegar komið er inní leikinn þá er ýtt á takkan í horninu vinstra megin, sem heitir &quot;Byrja leik&quot;." wrappingWidth="538.10205078125" />
+        <Button layoutX="493.0" layoutY="349.0" mnemonicParsing="false" onAction="#switchToSceneStart" text="Til baka" />
+        <Label layoutX="23.0" layoutY="210.0" prefHeight="17.0" prefWidth="553.0" text="4. Þegar tala kemur upp sem er á spjaldinu þá þarf einungis að ýta á hana." />
+        <Label layoutX="23.0" layoutY="233.0" prefHeight="26.0" prefWidth="545.0" text="5. Ef ýtt er á vitlausa tölu þá er hægt að ýta á hreinsa takannn sem er staðsettur á miðju spjaldinu til " />
+        <Label layoutX="31.0" layoutY="250.0" text="að hreinsa spjaldið." />
+        <Label layoutX="21.0" layoutY="273.0" text="6. Ef það kemur bingo þá birtist &quot;BINGO!!!&quot; fyrir ofan spjaldið/spjöldin." />
+        <Label layoutX="31.0" layoutY="290.0" text="6.1. Bingo kemur þegar skálínur eru spilaðar." />
+        <Label layoutX="21.0" layoutY="320.0" text="7. Hægt er að sjá hvaða tölur er búið að draga á spjaldinu hægra megin við bingospjöldin." />
+        <Label layoutX="31.0" layoutY="169.0" text="3.1.  þegar ýtt er á takkann, þá birtast tölurnar sem eru dregnar hægra megin við hann. " />
+      <Text layoutX="31.0" layoutY="199.0" strokeType="OUTSIDE" strokeWidth="0.0" text="3.2. 5 nýjustu tölur eru sýnilegar." />
+    </children>
+</Pane>

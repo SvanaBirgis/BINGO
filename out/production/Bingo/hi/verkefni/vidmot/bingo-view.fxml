@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<VBox prefHeight="245.0" prefWidth="550.0" xmlns="http://javafx.com/javafx/11.0.2" xmlns:fx="http://javafx.com/fxml/1" fx:controller="hi.verkefni.vidmot.BingoController">
+   <children>
+      <GridPane fx:id="fxGrid" alignment="center" hgap="10" vgap="10">
+         <rowConstraints>
+            <RowConstraints minHeight="10.0" prefHeight="30.0" />
+            <RowConstraints minHeight="10.0" prefHeight="30.0" />
+            <RowConstraints minHeight="10.0" prefHeight="30.0" />
+            <RowConstraints minHeight="10.0" prefHeight="30.0" />
+            <RowConstraints minHeight="10.0" prefHeight="30.0" />
+            <RowConstraints minHeight="10.0" prefHeight="30.0" />
+         </rowConstraints>
+         <columnConstraints>
+            <ColumnConstraints minWidth="10.0" prefWidth="100.0" />
+            <ColumnConstraints minWidth="10.0" prefWidth="100.0" />
+            <ColumnConstraints minWidth="10.0" prefWidth="100.0" />
+            <ColumnConstraints minWidth="10.0" prefWidth="100.0" />
+            <ColumnConstraints minWidth="10.0" prefWidth="100.0" />
+         </columnConstraints>
+         <children>
+            <Label  alignment="CENTER" prefHeight="35.0" prefWidth="100.0" text="B" textAlignment="CENTER" />
+            <Label alignment="CENTER" prefHeight="35.0" prefWidth="100.0" text="I" textAlignment="CENTER" GridPane.columnIndex="1" />
+            <Label alignment="CENTER" prefHeight="35.0" prefWidth="100.0" text="N" textAlignment="CENTER" GridPane.columnIndex="2" />
+            <Label alignment="CENTER" prefHeight="35.0" prefWidth="100.0" text="G" textAlignment="CENTER" GridPane.columnIndex="3" />
+            <Label alignment="CENTER" prefHeight="35.0" prefWidth="100.0" text="O" textAlignment="CENTER" GridPane.columnIndex="4" />
+            <Button mnemonicParsing="false" onAction="#bingoHandler" prefHeight="31.0" prefWidth="100.0" text="32" GridPane.columnIndex="0" GridPane.rowIndex="1" />
+            <Button mnemonicParsing="false" onAction="#bingoHandler" prefHeight="31.0" prefWidth="100.0" GridPane.columnIndex="1" GridPane.rowIndex="1" />
+            <Button mnemonicParsing="false" onAction="#bingoHandler" prefHeight="31.0" prefWidth="100.0" GridPane.columnIndex="2" GridPane.rowIndex="1" />
+            <Button mnemonicParsing="false" onAction="#bingoHandler" prefHeight="31.0" prefWidth="100.0" GridPane.columnIndex="3" GridPane.rowIndex="1" />
+            <Button mnemonicParsing="false" onAction="#bingoHandler" prefHeight="31.0" prefWidth="100.0" GridPane.columnIndex="4" GridPane.rowIndex="1" />
+            <Button mnemonicParsing="false" onAction="#bingoHandler" prefHeight="31.0" prefWidth="100.0" GridPane.columnIndex="0" GridPane.rowIndex="2" />
+            <Button mnemonicParsing="false" onAction="#bingoHandler" prefHeight="31.0" prefWidth="100.0" GridPane.columnIndex="1" GridPane.rowIndex="2" />
+            <Button mnemonicParsing="false" onAction="#bingoHandler" prefHeight="31.0" prefWidth="100.0" GridPane.columnIndex="2" GridPane.rowIndex="2" />
+            <Button mnemonicParsing="false" onAction="#bingoHandler" prefHeight="31.0" prefWidth="100.0" GridPane.columnIndex="3" GridPane.rowIndex="2" />
+            <Button mnemonicParsing="false" onAction="#bingoHandler" prefHeight="31.0" prefWidth="100.0" GridPane.columnIndex="4" GridPane.rowIndex="2" />
+            <Button mnemonicParsing="false" onAction="#bingoHandler" prefHeight="31.0" prefWidth="100.0" GridPane.columnIndex="0" GridPane.rowIndex="3" />
+            <Button mnemonicParsing="false" onAction="#bingoHandler" prefHeight="31.0" prefWidth="100.0" GridPane.columnIndex="1" GridPane.rowIndex="3" />
+            <Button mnemonicParsing="false" onAction="#bingoHandler" prefHeight="31.0" prefWidth="100.0" GridPane.columnIndex="2" GridPane.rowIndex="3" />
+            <Button mnemonicParsing="false" onAction="#bingoHandler" prefHeight="31.0" prefWidth="100.0" GridPane.columnIndex="3" GridPane.rowIndex="3" />
+            <Button mnemonicParsing="false" onAction="#bingoHandler" prefHeight="31.0" prefWidth="100.0" GridPane.columnIndex="4" GridPane.rowIndex="3" />
+            <Button mnemonicParsing="false" onAction="#bingoHandler" prefHeight="31.0" prefWidth="100.0" GridPane.columnIndex="0" GridPane.rowIndex="4" />
+            <Button mnemonicParsing="false" onAction="#bingoHandler" prefHeight="31.0" prefWidth="100.0" GridPane.columnIndex="1" GridPane.rowIndex="4" />
+            <Button mnemonicParsing="false" onAction="#bingoHandler" prefHeight="31.0" prefWidth="100.0" GridPane.columnIndex="2" GridPane.rowIndex="4" />
+            <Button mnemonicParsing="false" onAction="#bingoHandler" prefHeight="31.0" prefWidth="100.0" GridPane.columnIndex="3" GridPane.rowIndex="4" />
+            <Button mnemonicParsing="false" onAction="#bingoHandler" prefHeight="31.0" prefWidth="100.0" GridPane.columnIndex="4" GridPane.rowIndex="4" />
+            <Button layoutX="15.0" layoutY="161.0" mnemonicParsing="false" onAction="#bingoHandler" prefHeight="31.0" prefWidth="100.0" GridPane.columnIndex="0" GridPane.rowIndex="5" />
+            <Button layoutX="15.0" layoutY="161.0" mnemonicParsing="false" onAction="#bingoHandler" prefHeight="31.0" prefWidth="100.0" GridPane.columnIndex="1" GridPane.rowIndex="5" />
+            <Button layoutX="15.0" layoutY="161.0" mnemonicParsing="false" onAction="#bingoHandler" prefHeight="31.0" prefWidth="100.0" GridPane.columnIndex="2" GridPane.rowIndex="5" />
+            <Button layoutX="15.0" layoutY="161.0" mnemonicParsing="false" onAction="#bingoHandler" prefHeight="31.0" prefWidth="100.0" GridPane.columnIndex="3" GridPane.rowIndex="5" />
+            <Button layoutX="15.0" layoutY="161.0" mnemonicParsing="false" onAction="#bingoHandler" prefHeight="31.0" prefWidth="100.0" GridPane.columnIndex="4" GridPane.rowIndex="5" />
+         </children>
+         <padding>
+            <Insets bottom="5.0" left="5.0" right="5.0" top="5.0" />
+         </padding>
+      </GridPane>
+      <Label fx:id="fxBingoVinningur" alignment="CENTER" prefHeight="46.0" prefWidth="550.0" />
+   </children>
+</VBox>
